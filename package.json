@@ -1,0 +1,11 @@
+{
+  "name": "vistoria",
+  "private": true,
+  "workspaces": ["web", "pwa", "api"],
+  "scripts": {
+    "dev:web": "npm run dev -w web",
+    "dev:pwa": "npm run dev -w pwa",
+    "dev:api": "npm run dev -w vistoria-api",
+    "build": "npm run build -w web && npm run build -w pwa"
+  }
+}

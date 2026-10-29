@@ -1,0 +1,242 @@
+[
+  {
+    "codigo": "1.7",
+    "texto": "Prumo, nível e esquadro",
+    "criterio": "Sem desvios visíveis; folhas alinhadas",
+    "disciplina": "1. ESQUADRIAS (ALUMÍNIO/PVC)"
+  },
+  {
+    "codigo": "1.8",
+    "texto": "Acabamento dos perfis",
+    "criterio": "Sem riscos, amassados, manchas ou respingos",
+    "disciplina": "1. ESQUADRIAS (ALUMÍNIO/PVC)"
+  },
+  {
+    "codigo": "1.9",
+    "texto": "Persianas / venezianas (se houver)",
+    "criterio": "Acionamento completo, lâminas íntegras",
+    "disciplina": "1. ESQUADRIAS (ALUMÍNIO/PVC)"
+  },
+  {
+    "codigo": "1.10",
+    "texto": "Teste de estanqueidade (jato d'água)",
+    "criterio": "Sem infiltração para o interior",
+    "disciplina": "1. ESQUADRIAS (ALUMÍNIO/PVC)"
+  },
+  {
+    "codigo": "2.3",
+    "texto": "Fixação e baguetes",
+    "criterio": "Firmes, sem folga ou vibração",
+    "disciplina": "2. VIDROS"
+  },
+  {
+    "codigo": "2.4",
+    "texto": "Limpeza",
+    "criterio": "Sem etiquetas, massa ou respingos",
+    "disciplina": "2. VIDROS"
+  },
+  {
+    "codigo": "3.5",
+    "texto": "Batentes e guarnições",
+    "criterio": "Fixos, alinhados, sem frestas ou danos",
+    "disciplina": "3. PORTAS E FERRAGENS"
+  },
+  {
+    "codigo": "4.11",
+    "texto": "Os degraus têm piso (pisada) e espelho uniformes, sem trincas, lascas ou peças soltas (ensaio de percussão)?",
+    "criterio": "Nenhuma peça danificada",
+    "disciplina": "4. REVESTIMENTOS CERÂMICOS (PISO E PAREDE)"
+  },
+  {
+    "codigo": "7.3",
+    "texto": "Rejunte/selagem das emendas e encontro com a esquadria",
+    "criterio": "Contínua, sem falhas",
+    "disciplina": "7. PINGADEIRAS, PEITORIS E RUFOS"
+  },
+  {
+    "codigo": "7.4",
+    "texto": "Manchas/escorrimentos na fachada abaixo do peitoril",
+    "criterio": "Inexistentes",
+    "disciplina": "7. PINGADEIRAS, PEITORIS E RUFOS"
+  },
+  {
+    "codigo": "8.7",
+    "texto": "Altura conforme projeto",
+    "criterio": "Conforme projeto (usual 90–92 cm cozinha)",
+    "disciplina": "8. BANCADAS E TAMPOS"
+  },
+  {
+    "codigo": "9.1",
+    "texto": "Uniformidade de cor e cobertura",
+    "criterio": "Sem manchas, transparência ou diferença de tonalidade",
+    "disciplina": "9. PINTURA"
+  },
+  {
+    "codigo": "9.2",
+    "texto": "Acabamento superficial",
+    "criterio": "Sem bolhas, escorrimentos, descascamento ou marcas de rolo",
+    "disciplina": "9. PINTURA"
+  },
+  {
+    "codigo": "9.3",
+    "texto": "Fissuras e trincas em paredes/tetos",
+    "criterio": "Inexistentes",
+    "disciplina": "9. PINTURA"
+  },
+  {
+    "codigo": "9.4",
+    "texto": "Recortes (teto x parede, rodapé, espelhos, esquadrias)",
+    "criterio": "Retos e limpos",
+    "disciplina": "9. PINTURA"
+  },
+  {
+    "codigo": "9.5",
+    "texto": "Respingos em pisos, esquadrias, louças e metais",
+    "criterio": "Inexistentes",
+    "disciplina": "9. PINTURA"
+  },
+  {
+    "codigo": "9.6",
+    "texto": "Áreas molhadas com tinta adequada (acrílica/epóxi)",
+    "criterio": "Conforme memorial",
+    "disciplina": "9. PINTURA"
+  },
+  {
+    "codigo": "9.7",
+    "texto": "Eflorescência / bolor / umidade",
+    "criterio": "Inexistentes",
+    "disciplina": "9. PINTURA"
+  },
+  {
+    "codigo": "10.4",
+    "texto": "Manchas de umidade / Eflorescência / bolor / umidade",
+    "criterio": "Inexistentes",
+    "disciplina": "10. FORROS E GESSO"
+  },
+  {
+    "codigo": "11.4",
+    "texto": "Tomadas: identificação de tensão",
+    "criterio": "Etiqueta/indicação de 127V ou 220V",
+    "disciplina": "11. ELÉTRICA"
+  },
+  {
+    "codigo": "11.5",
+    "texto": "Interruptores: acionamento dos pontos de luz",
+    "criterio": "Todos acionam o ponto correto",
+    "disciplina": "11. ELÉTRICA"
+  },
+  {
+    "codigo": "11.6",
+    "texto": "Pontos de luz no teto (com soquete/lâmpada para teste)",
+    "criterio": "Todos energizados",
+    "disciplina": "11. ELÉTRICA"
+  },
+  {
+    "codigo": "11.7",
+    "texto": "Espelhos e placas",
+    "criterio": "Fixos, alinhados, sem danos ou tinta",
+    "disciplina": "11. ELÉTRICA"
+  },
+  {
+    "codigo": "11.8",
+    "texto": "Quantidade e posição dos pontos conforme projeto",
+    "criterio": "Conforme projeto elétrico",
+    "disciplina": "11. ELÉTRICA"
+  },
+  {
+    "codigo": "11.9",
+    "texto": "Pontos de chuveiro, forno, cooktop e ar-condicionado",
+    "criterio": "Circuitos dedicados, tensão e disjuntor corretos",
+    "disciplina": "11. ELÉTRICA"
+  },
+  {
+    "codigo": "12.4",
+    "texto": "Vazamentos aparentes em conexões, flexíveis e sifões",
+    "criterio": "Inexistentes (verificar após 10 min de uso)",
+    "disciplina": "12. HIDRÁULICA"
+  },
+  {
+    "codigo": "12.5",
+    "texto": "Hidrômetro individual (se houver)",
+    "criterio": "Instalado, sem giro com pontos fechados",
+    "disciplina": "12. HIDRÁULICA"
+  },
+  {
+    "codigo": "12.6",
+    "texto": "Pontos de máquina de lavar roupa/louça e filtro",
+    "criterio": "Com registro e esgoto, posição conforme projeto",
+    "disciplina": "12. HIDRÁULICA"
+  },
+  {
+    "codigo": "13.5",
+    "texto": "Teste de escoamento de pias, tanque e lavatórios",
+    "criterio": "Sem obstrução ou vazamento no sifão",
+    "disciplina": "13. ESGOTO, RALOS E ÁGUAS PLUVIAIS"
+  },
+  {
+    "codigo": "14.3",
+    "texto": "Lavatórios, cubas e tanques: fixação e integridade",
+    "criterio": "Firmes, sem trincas",
+    "disciplina": "14. LOUÇAS E METAIS"
+  },
+  {
+    "codigo": "14.4",
+    "texto": "Torneiras, misturadores e chuveiros: funcionamento",
+    "criterio": "Abrem/fecham sem gotejamento",
+    "disciplina": "14. LOUÇAS E METAIS"
+  },
+  {
+    "codigo": "14.5",
+    "texto": "Acabamento dos metais",
+    "criterio": "Sem riscos, manchas ou oxidação",
+    "disciplina": "14. LOUÇAS E METAIS"
+  },
+  {
+    "codigo": "15.2",
+    "texto": "Guarda-corpo: prumo e alinhamento",
+    "criterio": "Sem desvios visíveis; montantes alinhados",
+    "disciplina": "15. GUARDA-CORPO E COBOGÓ (VARANDA)"
+  },
+  {
+    "codigo": "15.3",
+    "texto": "Cobogó: integridade das peças",
+    "criterio": "Sem trincas, lascas ou peças quebradas",
+    "disciplina": "15. GUARDA-CORPO E COBOGÓ (VARANDA)"
+  },
+  {
+    "codigo": "15.4",
+    "texto": "Cobogó: alinhamento, prumo e juntas",
+    "criterio": "Peças alinhadas, juntas uniformes",
+    "disciplina": "15. GUARDA-CORPO E COBOGÓ (VARANDA)"
+  },
+  {
+    "codigo": "15.5",
+    "texto": "Cobogó: acabamento e limpeza",
+    "criterio": "Sem manchas, eflorescência, respingos de tinta/argamassa",
+    "disciplina": "15. GUARDA-CORPO E COBOGÓ (VARANDA)"
+  },
+  {
+    "codigo": "16.2",
+    "texto": "Ventilação permanente no ambiente",
+    "criterio": "Conforme norma/projeto",
+    "disciplina": "16. GÁS"
+  },
+  {
+    "codigo": "17.1",
+    "texto": "Infraestrutura de ar-condicionado (dreno e elétrica)",
+    "criterio": "Pontos conforme projeto, dreno com caimento",
+    "disciplina": "17. CLIMATIZAÇÃO"
+  },
+  {
+    "codigo": "18.1",
+    "texto": "Limpeza fina de pisos, vidros, louças e esquadrias",
+    "criterio": "Unidade limpa, sem resíduos de obra",
+    "disciplina": "18. LIMPEZA GERAL E ENTREGA"
+  },
+  {
+    "codigo": "18.2",
+    "texto": "Retirada de entulho e materiais",
+    "criterio": "Nenhum resíduo na unidade",
+    "disciplina": "18. LIMPEZA GERAL E ENTREGA"
+  }
+]

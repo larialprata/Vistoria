@@ -1,0 +1,1091 @@
+[
+  {
+    "id": "unidade",
+    "nome": "Unidade",
+    "comodos": [
+      {
+        "id": "geral",
+        "nome": "Geral"
+      },
+      {
+        "id": "sala",
+        "nome": "Sala"
+      },
+      {
+        "id": "cozinha",
+        "nome": "Cozinha"
+      },
+      {
+        "id": "area-servico",
+        "nome": "Área de serviço"
+      },
+      {
+        "id": "quarto-01",
+        "nome": "Quarto 01"
+      },
+      {
+        "id": "quarto-02",
+        "nome": "Quarto 02"
+      },
+      {
+        "id": "banheiro",
+        "nome": "Banheiro"
+      },
+      {
+        "id": "varanda",
+        "nome": "Varanda"
+      }
+    ],
+    "disciplinas": [
+      {
+        "id": "1",
+        "nome": "1. ESQUADRIAS (ALUMÍNIO/PVC)",
+        "itens": [
+          {
+            "codigo": "1.1",
+            "texto": "Funcionamento de abertura/fechamento das folhas, sem travamento ou ruído. Fechos, trincos e travas",
+            "criterio": "Movimento suave, sem esforço excessivo",
+            "bloqueados": [
+              "geral",
+              "cozinha",
+              "varanda"
+            ]
+          },
+          {
+            "codigo": "1.2",
+            "texto": "Roldanas e trilhos, vedação (escovas e borrachas)",
+            "criterio": "Limpos, sem obstrução, deslizamento contínuo",
+            "bloqueados": [
+              "geral",
+              "cozinha",
+              "varanda"
+            ]
+          },
+          {
+            "codigo": "1.3",
+            "texto": "Selagem perimetral (silicone/PU) entre esquadria e alvenaria",
+            "criterio": "Contínua, sem fissuras ou falhas",
+            "bloqueados": [
+              "geral",
+              "cozinha",
+              "varanda"
+            ]
+          },
+          {
+            "codigo": "1.4",
+            "texto": "Prumo, nível e esquadro",
+            "criterio": "Sem desvios visíveis; folhas alinhadas",
+            "bloqueados": [
+              "geral",
+              "cozinha",
+              "varanda"
+            ]
+          },
+          {
+            "codigo": "1.5",
+            "texto": "Persianas / venezianas (se houver)",
+            "criterio": "Acionamento completo, lâminas íntegras",
+            "bloqueados": [
+              "geral",
+              "sala",
+              "cozinha",
+              "area-servico",
+              "banheiro",
+              "varanda"
+            ]
+          },
+          {
+            "codigo": "1.6",
+            "texto": "Teste de estanqueidade (jato d'água) e dreno do trilho inferior.",
+            "criterio": "Sem infiltração para o interior",
+            "bloqueados": [
+              "geral",
+              "cozinha",
+              "varanda"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "2",
+        "nome": "2. VIDROS",
+        "itens": [
+          {
+            "codigo": "2.1",
+            "texto": "Integridade dos vidros (manchas, trincas)",
+            "criterio": "Sem trincas, lascas ou riscos",
+            "bloqueados": [
+              "geral",
+              "cozinha"
+            ]
+          },
+          {
+            "codigo": "2.2",
+            "texto": "Fixação e baguetes",
+            "criterio": "Firmes, sem folga ou vibração",
+            "bloqueados": [
+              "geral",
+              "cozinha"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "3",
+        "nome": "3. PORTAS E FERRAGENS",
+        "itens": [
+          {
+            "codigo": "3.1",
+            "texto": "Abertura e fechamento das portas",
+            "criterio": "Sem raspar no piso/batente, sem empenamento",
+            "bloqueados": [
+              "geral",
+              "cozinha",
+              "area-servico",
+              "varanda"
+            ]
+          },
+          {
+            "codigo": "3.2",
+            "texto": "Folgas entre folha e batente (Batentes e guarnições)",
+            "criterio": "Uniformes (aprox. 2 a 3 mm laterais)",
+            "bloqueados": [
+              "geral",
+              "cozinha",
+              "area-servico",
+              "varanda"
+            ]
+          },
+          {
+            "codigo": "3.3",
+            "texto": "Fechaduras, maçanetas e chaves",
+            "criterio": "Funcionando; chaves entregues e testadas",
+            "bloqueados": [
+              "geral",
+              "cozinha",
+              "area-servico",
+              "varanda"
+            ]
+          },
+          {
+            "codigo": "3.4",
+            "texto": "Dobradiças",
+            "criterio": "Firmes, sem ruído, parafusos completos",
+            "bloqueados": [
+              "geral",
+              "cozinha",
+              "area-servico",
+              "varanda"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "4",
+        "nome": "4. REVESTIMENTOS CERÂMICOS (PISO E PAREDE)",
+        "itens": [
+          {
+            "codigo": "4.1",
+            "texto": "Peças sem trincas, lascas ou manchas e diferença de Tonalidade / lote",
+            "criterio": "Nenhuma peça danificada",
+            "bloqueados": [
+              "geral"
+            ]
+          },
+          {
+            "codigo": "4.2",
+            "texto": "Teste de som cavo (percussão)",
+            "criterio": "Sem peças ocas/soltas",
+            "bloqueados": [
+              "geral"
+            ]
+          },
+          {
+            "codigo": "4.3",
+            "texto": "Alinhamento e uniformidade das juntas",
+            "criterio": "Juntas alinhadas e de largura constante",
+            "bloqueados": [
+              "geral"
+            ]
+          },
+          {
+            "codigo": "4.4",
+            "texto": "Nivelamento entre peças (dentes/ressaltos)",
+            "criterio": "Sem desníveis perceptíveis ao tato",
+            "bloqueados": [
+              "geral"
+            ]
+          },
+          {
+            "codigo": "4.5",
+            "texto": "Caimento para ralos (áreas molhadas)",
+            "criterio": "Água escoa sem empoçar",
+            "bloqueados": [
+              "geral"
+            ]
+          },
+          {
+            "codigo": "4.6",
+            "texto": "Rejuntamento",
+            "criterio": "Completo, uniforme, sem falhas ou fissuras",
+            "bloqueados": [
+              "geral"
+            ]
+          },
+          {
+            "codigo": "4.7",
+            "texto": "Arremates (cantoneira, recortes junto a tomadas, registros e ralo)",
+            "criterio": "Bem executados, sem peças quebradas",
+            "bloqueados": [
+              "geral",
+              "sala",
+              "quarto-01",
+              "quarto-02"
+            ]
+          },
+          {
+            "codigo": "4.8",
+            "texto": "Rodapés fixos e alinhados",
+            "criterio": "Sem descolamento, frestas ou danos",
+            "bloqueados": [
+              "geral"
+            ]
+          },
+          {
+            "codigo": "4.9",
+            "texto": "Soleiras (portas/box)",
+            "criterio": "Niveladas, fixas, sem trincas",
+            "bloqueados": [
+              "geral",
+              "sala",
+              "cozinha",
+              "quarto-01",
+              "quarto-02"
+            ]
+          },
+          {
+            "codigo": "4.10",
+            "texto": "Desnível entre ambientes secos e molhados",
+            "criterio": "Conforme projeto, com arremate adequado",
+            "bloqueados": [
+              "geral",
+              "sala",
+              "quarto-01",
+              "quarto-02"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "5",
+        "nome": "5. PINGADEIRAS, PEITORIS E RUFOS",
+        "itens": [
+          {
+            "codigo": "5.1",
+            "texto": "Peitoris com caimento para o exterior",
+            "criterio": "Inclinação para fora, sem retorno de água",
+            "bloqueados": [
+              "geral",
+              "sala",
+              "cozinha"
+            ]
+          },
+          {
+            "codigo": "5.2",
+            "texto": "Peças íntegras e bem fixadas",
+            "criterio": "Sem trincas, lascas ou som cavo",
+            "bloqueados": [
+              "geral"
+            ]
+          },
+          {
+            "codigo": "5.3",
+            "texto": "Rejunte/selagem das emendas e encontro com a esquadria",
+            "criterio": "Contínua, sem falhas",
+            "bloqueados": [
+              "geral"
+            ]
+          },
+          {
+            "codigo": "5.4",
+            "texto": "Manchas/escorrimentos na fachada abaixo do peitoril",
+            "criterio": "Inexistentes",
+            "bloqueados": [
+              "geral"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "6",
+        "nome": "6. BANCADAS E TAMPOS",
+        "itens": [
+          {
+            "codigo": "6.1",
+            "texto": "Integridade da Bancada",
+            "criterio": "Sem trincas, lascas ou manchas",
+            "bloqueados": [
+              "geral",
+              "sala",
+              "quarto-01",
+              "quarto-02",
+              "varanda"
+            ]
+          },
+          {
+            "codigo": "6.2",
+            "texto": "Nivelamento e fixação (mãos-francesas/apoios)",
+            "criterio": "Nivelada, firme, sem balanço",
+            "bloqueados": [
+              "geral",
+              "sala",
+              "quarto-01",
+              "quarto-02",
+              "varanda"
+            ]
+          },
+          {
+            "codigo": "6.3",
+            "texto": "Vedação com silicone (bancada x parede, bancada x cuba)",
+            "criterio": "Contínua, sem falhas ou fungos",
+            "bloqueados": [
+              "geral",
+              "sala",
+              "quarto-01",
+              "quarto-02",
+              "varanda"
+            ]
+          },
+          {
+            "codigo": "6.4",
+            "texto": "Altura conforme projeto",
+            "criterio": "Conforme projeto (usual 90–92 cm cozinha)",
+            "bloqueados": [
+              "geral",
+              "sala",
+              "quarto-01",
+              "quarto-02",
+              "varanda"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "7",
+        "nome": "7. PINTURA (PAREDE E FORRO)",
+        "itens": [
+          {
+            "codigo": "7.1",
+            "texto": "Uniformidade de cor e cobertura - parede e teto",
+            "criterio": "Sem manchas, transparência ou diferença de tonalidade",
+            "bloqueados": [
+              "geral"
+            ]
+          },
+          {
+            "codigo": "7.2",
+            "texto": "Fissuras e trincas em paredes/tetos",
+            "criterio": "Inexistentes",
+            "bloqueados": [
+              "geral"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "8",
+        "nome": "8. ELÉTRICA",
+        "itens": [
+          {
+            "codigo": "8.1",
+            "texto": "Quadro de distribuição (QDC): identificação dos circuitos",
+            "criterio": "Todos os disjuntores identificados",
+            "bloqueados": [
+              "sala",
+              "cozinha",
+              "area-servico",
+              "quarto-01",
+              "quarto-02",
+              "banheiro",
+              "varanda"
+            ]
+          },
+          {
+            "codigo": "8.2",
+            "texto": "Interruptores: acionamento dos pontos de luz",
+            "criterio": "Todos acionam o ponto correto",
+            "bloqueados": [
+              "geral"
+            ]
+          },
+          {
+            "codigo": "8.3",
+            "texto": "Pontos de luz no teto (com soquete/lâmpada para teste)",
+            "criterio": "Todos energizados",
+            "bloqueados": [
+              "geral"
+            ]
+          },
+          {
+            "codigo": "8.4",
+            "texto": "Espelhos",
+            "criterio": "Fixos, alinhados, sem danos ou tinta",
+            "bloqueados": [
+              "geral"
+            ]
+          },
+          {
+            "codigo": "8.5",
+            "texto": "Quantidade e posição dos pontos conforme projeto",
+            "criterio": "Conforme projeto elétrico",
+            "bloqueados": [
+              "geral"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "10",
+        "nome": "10. HIDRÁULICA",
+        "itens": [
+          {
+            "codigo": "10.1",
+            "texto": "Registro geral: abertura/fechamento",
+            "criterio": "Operação suave, sem vazamento",
+            "bloqueados": [
+              "geral",
+              "sala",
+              "quarto-01",
+              "quarto-02"
+            ]
+          },
+          {
+            "codigo": "10.2",
+            "texto": "Vazamentos aparentes em conexões, flexíveis e sifões",
+            "criterio": "Inexistentes (verificar após 10 min de uso)",
+            "bloqueados": [
+              "geral",
+              "sala",
+              "quarto-01",
+              "quarto-02"
+            ]
+          },
+          {
+            "codigo": "10.3",
+            "texto": "Ponto de água;",
+            "criterio": "Com registro e esgoto, verificar saída de água em todos os dispositivos, posição conforme projeto",
+            "bloqueados": [
+              "geral",
+              "sala",
+              "quarto-01",
+              "quarto-02",
+              "banheiro",
+              "varanda"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "11",
+        "nome": "11. ESGOTO, RALOS E ÁGUAS PLUVIAIS",
+        "itens": [
+          {
+            "codigo": "11.1",
+            "texto": "Ralos e grelhas: escoamento",
+            "criterio": "Escoamento rápido, sem retorno",
+            "bloqueados": [
+              "geral",
+              "sala",
+              "quarto-01",
+              "quarto-02"
+            ]
+          },
+          {
+            "codigo": "11.2",
+            "texto": "Ralos sifonados: odor",
+            "criterio": "Sem mau cheiro",
+            "bloqueados": [
+              "geral",
+              "sala",
+              "cozinha",
+              "quarto-01",
+              "quarto-02"
+            ]
+          },
+          {
+            "codigo": "11.3",
+            "texto": "Descarga do vaso sanitário",
+            "criterio": "Esgota completamente, sem retorno ou vazamento",
+            "bloqueados": [
+              "geral",
+              "sala",
+              "cozinha",
+              "area-servico",
+              "quarto-01",
+              "quarto-02",
+              "varanda"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "12",
+        "nome": "12. LOUÇAS E METAIS",
+        "itens": [
+          {
+            "codigo": "12.1",
+            "texto": "Vasos sanitários: fixação e rejunte na base",
+            "criterio": "Firmes, sem balanço; vedação contínua",
+            "bloqueados": [
+              "geral",
+              "sala",
+              "cozinha",
+              "area-servico",
+              "quarto-01",
+              "quarto-02",
+              "varanda"
+            ]
+          },
+          {
+            "codigo": "12.2",
+            "texto": "Lavatórios, cubas e tanques: fixação e integridade",
+            "criterio": "Firmes, sem trincas",
+            "bloqueados": [
+              "geral",
+              "sala",
+              "quarto-01",
+              "quarto-02",
+              "varanda"
+            ]
+          },
+          {
+            "codigo": "12.3",
+            "texto": "Torneiras, misturadores e chuveiros: funcionamento",
+            "criterio": "Abrem/fecham sem gotejamento",
+            "bloqueados": [
+              "geral",
+              "sala",
+              "quarto-01",
+              "quarto-02",
+              "varanda"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "13",
+        "nome": "13. GUARDA-CORPO E COBOGÓ (VARANDA)",
+        "itens": [
+          {
+            "codigo": "13.1",
+            "texto": "Guarda-corpo: fixação e ancoragem",
+            "criterio": "Firme ao empurrar manualmente, sem folga; chumbadores completos",
+            "bloqueados": [
+              "geral",
+              "sala",
+              "cozinha",
+              "area-servico",
+              "quarto-01",
+              "quarto-02",
+              "banheiro"
+            ]
+          },
+          {
+            "codigo": "13.2",
+            "texto": "Guarda-corpo: prumo e alinhamento",
+            "criterio": "Sem desvios visíveis; montantes alinhados",
+            "bloqueados": [
+              "geral",
+              "sala",
+              "cozinha",
+              "area-servico",
+              "quarto-01",
+              "quarto-02",
+              "banheiro"
+            ]
+          },
+          {
+            "codigo": "13.3",
+            "texto": "Cobogó: integridade das peças",
+            "criterio": "Sem trincas, lascas ou peças quebradas",
+            "bloqueados": [
+              "geral",
+              "sala",
+              "cozinha",
+              "area-servico",
+              "quarto-01",
+              "quarto-02",
+              "banheiro"
+            ]
+          },
+          {
+            "codigo": "13.4",
+            "texto": "Cobogó: alinhamento, prumo e juntas",
+            "criterio": "Peças alinhadas, juntas uniformes",
+            "bloqueados": [
+              "geral",
+              "sala",
+              "cozinha",
+              "area-servico",
+              "quarto-01",
+              "quarto-02",
+              "banheiro"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "14",
+        "nome": "14. GÁS",
+        "itens": [
+          {
+            "codigo": "14.1",
+            "texto": "Ponto de gás com registro",
+            "criterio": "Instalado, identificado, conforme projeto",
+            "bloqueados": [
+              "geral",
+              "sala",
+              "quarto-01",
+              "quarto-02",
+              "banheiro",
+              "varanda"
+            ]
+          },
+          {
+            "codigo": "14.2",
+            "texto": "Ventilação permanente no ambiente",
+            "criterio": "Conforme norma/projeto",
+            "bloqueados": [
+              "geral",
+              "sala",
+              "quarto-01",
+              "quarto-02",
+              "banheiro",
+              "varanda"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "15",
+        "nome": "15. CLIMATIZAÇÃO",
+        "itens": [
+          {
+            "codigo": "15.1",
+            "texto": "Infraestrutura de ar-condicionado (dreno e elétrica)",
+            "criterio": "Pontos conforme projeto, dreno com caimento",
+            "bloqueados": [
+              "geral",
+              "cozinha",
+              "area-servico",
+              "banheiro",
+              "varanda"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "16",
+        "nome": "16. LIMPEZA GERAL E ENTREGA",
+        "itens": [
+          {
+            "codigo": "16.1",
+            "texto": "Limpeza fina de pisos, vidros, louças e esquadrias",
+            "criterio": "Unidade limpa, sem resíduos de obra",
+            "bloqueados": [
+              "geral"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "escada",
+    "nome": "Escada e hall",
+    "comodos": [
+      {
+        "id": "geral",
+        "nome": "Geral"
+      },
+      {
+        "id": "escada",
+        "nome": "Escada/Acesso"
+      }
+    ],
+    "disciplinas": [
+      {
+        "id": "E1",
+        "nome": "1. ESQUADRIAS (ALUMÍNIO/PVC)",
+        "itens": [
+          {
+            "codigo": "E1.1",
+            "texto": "Funcionamento de abertura/fechamento das folhas, sem travamento ou ruído",
+            "criterio": "Movimento suave, sem esforço excessivo",
+            "bloqueados": [
+              "geral"
+            ]
+          },
+          {
+            "codigo": "E1.2",
+            "texto": "Fechos, trincos e travas",
+            "criterio": "Travam corretamente, sem folga",
+            "bloqueados": [
+              "geral"
+            ]
+          },
+          {
+            "codigo": "E1.3",
+            "texto": "Roldanas e trilhos",
+            "criterio": "Limpos, sem obstrução, deslizamento contínuo",
+            "bloqueados": [
+              "geral"
+            ]
+          },
+          {
+            "codigo": "E1.4",
+            "texto": "Vedação (escovas e borrachas)",
+            "criterio": "Contínuas, sem falhas, rasgos ou descolamento",
+            "bloqueados": [
+              "geral"
+            ]
+          },
+          {
+            "codigo": "E1.5",
+            "texto": "Drenos do trilho inferior",
+            "criterio": "Desobstruídos, escoamento livre",
+            "bloqueados": [
+              "geral"
+            ]
+          },
+          {
+            "codigo": "E1.6",
+            "texto": "Selagem perimetral (silicone/PU) entre esquadria e alvenaria",
+            "criterio": "Contínua, sem fissuras ou falhas",
+            "bloqueados": [
+              "geral"
+            ]
+          },
+          {
+            "codigo": "E1.7",
+            "texto": "Prumo, nível e esquadro",
+            "criterio": "Sem desvios visíveis; folhas alinhadas",
+            "bloqueados": [
+              "geral"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "E2",
+        "nome": "2. PORTAS E FERRAGENS",
+        "itens": [
+          {
+            "codigo": "E2.1",
+            "texto": "Abertura e fechamento das portas",
+            "criterio": "Sem raspar no piso/batente, sem empenamento",
+            "bloqueados": [
+              "geral"
+            ]
+          },
+          {
+            "codigo": "E2.2",
+            "texto": "Folgas entre folha e batente",
+            "criterio": "Uniformes (aprox. 2 a 3 mm laterais)",
+            "bloqueados": [
+              "geral"
+            ]
+          },
+          {
+            "codigo": "E2.3",
+            "texto": "Fechaduras, maçanetas e chaves",
+            "criterio": "Funcionando; chaves entregues e testadas",
+            "bloqueados": [
+              "geral"
+            ]
+          },
+          {
+            "codigo": "E2.4",
+            "texto": "Dobradiças",
+            "criterio": "Firmes, sem ruído, parafusos completos",
+            "bloqueados": [
+              "geral"
+            ]
+          },
+          {
+            "codigo": "E2.5",
+            "texto": "Batentes e guarnições",
+            "criterio": "Fixos, alinhados, sem frestas ou danos",
+            "bloqueados": [
+              "geral"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "E3",
+        "nome": "3. REVESTIMENTOS CERÂMICOS (PISO E PAREDE)",
+        "itens": [
+          {
+            "codigo": "E3.1",
+            "texto": "Peças sem trincas, lascas ou manchas",
+            "criterio": "Nenhuma peça danificada",
+            "bloqueados": [
+              "geral"
+            ]
+          },
+          {
+            "codigo": "E3.2",
+            "texto": "Teste de som cavo (percussão)",
+            "criterio": "Sem peças ocas/soltas",
+            "bloqueados": [
+              "geral"
+            ]
+          },
+          {
+            "codigo": "E3.3",
+            "texto": "Alinhamento e uniformidade das juntas",
+            "criterio": "Juntas alinhadas e de largura constante",
+            "bloqueados": [
+              "geral"
+            ]
+          },
+          {
+            "codigo": "E3.4",
+            "texto": "Nivelamento entre peças (dentes/ressaltos)",
+            "criterio": "Sem desníveis perceptíveis ao tato",
+            "bloqueados": [
+              "geral"
+            ]
+          },
+          {
+            "codigo": "E3.6",
+            "texto": "Rejuntamento",
+            "criterio": "Completo, uniforme, sem falhas ou fissuras",
+            "bloqueados": [
+              "geral"
+            ]
+          },
+          {
+            "codigo": "E3.8",
+            "texto": "Tonalidade / lote",
+            "criterio": "Sem variação de cor perceptível",
+            "bloqueados": [
+              "geral"
+            ]
+          },
+          {
+            "codigo": "E3.9",
+            "texto": "Arremates e cantoneiras",
+            "criterio": "Bem acabados, sem cantos vivos cortantes",
+            "bloqueados": [
+              "geral"
+            ]
+          },
+          {
+            "codigo": "E3.10",
+            "texto": "Limpeza (resíduo de argamassa/rejunte)",
+            "criterio": "Superfície limpa",
+            "bloqueados": [
+              "geral"
+            ]
+          },
+          {
+            "codigo": "E3.11",
+            "texto": "Os degraus têm piso (pisada) e espelho uniformes, sem trincas, lascas ou peças soltas (ensaio de percussão)?",
+            "criterio": "Nenhuma peça danificada",
+            "bloqueados": [
+              "geral"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "E4",
+        "nome": "4. PINTURA",
+        "itens": [
+          {
+            "codigo": "E4.1",
+            "texto": "Uniformidade de cor e cobertura",
+            "criterio": "Sem manchas, transparência ou diferença de tonalidade",
+            "bloqueados": [
+              "geral"
+            ]
+          },
+          {
+            "codigo": "E4.2",
+            "texto": "Acabamento superficial",
+            "criterio": "Sem bolhas, escorrimentos, descascamento ou marcas de rolo",
+            "bloqueados": [
+              "geral"
+            ]
+          },
+          {
+            "codigo": "E4.3",
+            "texto": "Fissuras e trincas em paredes/tetos",
+            "criterio": "Inexistentes",
+            "bloqueados": [
+              "geral"
+            ]
+          },
+          {
+            "codigo": "E4.4",
+            "texto": "Recortes (teto x parede, rodapé, espelhos, esquadrias)",
+            "criterio": "Retos e limpos",
+            "bloqueados": [
+              "geral"
+            ]
+          },
+          {
+            "codigo": "E4.5",
+            "texto": "Respingos em pisos, esquadrias, louças e metais",
+            "criterio": "Inexistentes",
+            "bloqueados": [
+              "geral"
+            ]
+          },
+          {
+            "codigo": "E4.6",
+            "texto": "Eflorescência / bolor / umidade",
+            "criterio": "Inexistentes",
+            "bloqueados": [
+              "geral"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "E5",
+        "nome": "5. FORROS E GESSO",
+        "itens": [
+          {
+            "codigo": "E5.1",
+            "texto": "Planicidade e nivelamento do forro",
+            "criterio": "Sem ondulações ou desníveis",
+            "bloqueados": [
+              "geral"
+            ]
+          },
+          {
+            "codigo": "E5.2",
+            "texto": "Juntas e emendas",
+            "criterio": "Sem fissuras ou marcas aparentes",
+            "bloqueados": [
+              "geral"
+            ]
+          },
+          {
+            "codigo": "E5.3",
+            "texto": "Manchas de umidade / Eflorescência / bolor / umidade",
+            "criterio": "Inexistentes",
+            "bloqueados": [
+              "geral"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "E6",
+        "nome": "6. ELÉTRICA",
+        "itens": [
+          {
+            "codigo": "E6.1",
+            "texto": "Quadro de distribuição (QDC): identificação dos circuitos",
+            "criterio": "Todos os disjuntores identificados",
+            "bloqueados": []
+          },
+          {
+            "codigo": "E6.2",
+            "texto": "Disjuntores e DR: funcionamento (teste do botão DR)",
+            "criterio": "DR desarma no teste; disjuntores operam",
+            "bloqueados": []
+          },
+          {
+            "codigo": "E6.3",
+            "texto": "Pontos de luz no teto (com soquete/lâmpada para teste)",
+            "criterio": "Todos energizados",
+            "bloqueados": [
+              "geral"
+            ]
+          },
+          {
+            "codigo": "E6.4",
+            "texto": "Quantidade e posição dos pontos conforme projeto",
+            "criterio": "Conforme projeto elétrico",
+            "bloqueados": [
+              "geral"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "E7",
+        "nome": "7. GUARDA-CORPO E COBOGÓ (VARANDA)",
+        "itens": [
+          {
+            "codigo": "E7.1",
+            "texto": "Guarda-corpo: fixação e ancoragem",
+            "criterio": "Firme ao empurrar manualmente, sem folga; chumbadores completos",
+            "bloqueados": [
+              "geral"
+            ]
+          },
+          {
+            "codigo": "E7.2",
+            "texto": "Guarda-corpo: prumo e alinhamento",
+            "criterio": "Sem desvios visíveis; montantes alinhados",
+            "bloqueados": [
+              "geral"
+            ]
+          },
+          {
+            "codigo": "E7.3",
+            "texto": "Cobogó: integridade das peças",
+            "criterio": "Sem trincas, lascas ou peças quebradas",
+            "bloqueados": [
+              "geral"
+            ]
+          },
+          {
+            "codigo": "E7.4",
+            "texto": "Cobogó: alinhamento, prumo e juntas",
+            "criterio": "Peças alinhadas, juntas uniformes",
+            "bloqueados": [
+              "geral"
+            ]
+          },
+          {
+            "codigo": "E7.5",
+            "texto": "Cobogó: acabamento e limpeza",
+            "criterio": "Sem manchas, eflorescência, respingos de tinta/argamassa",
+            "bloqueados": [
+              "geral"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "E8",
+        "nome": "8. LIMPEZA GERAL E ENTREGA",
+        "itens": [
+          {
+            "codigo": "E8.1",
+            "texto": "Limpeza fina de pisos, vidros, louças e esquadrias",
+            "criterio": "Unidade limpa, sem resíduos de obra",
+            "bloqueados": [
+              "geral"
+            ]
+          },
+          {
+            "codigo": "E8.2",
+            "texto": "Retirada de entulho e materiais",
+            "criterio": "Nenhum resíduo na unidade",
+            "bloqueados": [
+              "geral"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

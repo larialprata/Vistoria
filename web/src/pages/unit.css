@@ -1,0 +1,49 @@
+.dossier {
+  display: grid;
+  gap: 18px;
+}
+
+.dossier > a {
+  color: #6d5c57;
+  font-size: 13px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.dossier > header,
+.dossier > .panel {
+  border-radius: 24px;
+  background:
+    linear-gradient(90deg, #9f2f38 0 8px, transparent 8px),
+    #fffdf8;
+  box-shadow: 0 16px 36px rgba(70, 32, 24, 0.06);
+}
+
+.dossier header {
+  padding: 22px 22px 18px 28px;
+}
+
+.dossier header h1 {
+  margin: 4px 0 0;
+  font-size: 36px;
+  letter-spacing: -0.04em;
+}
+
+.dossier .grid.gap-4 article,
+.dossier article.panel {
+  overflow: hidden;
+  border-radius: 22px;
+  background: white;
+  box-shadow: 0 12px 30px rgba(70, 32, 24, 0.05);
+}
+
+.dossier button.btn-primary,
+.dossier button.btn-ghost {
+  border-radius: 999px;
+}
+
+@media (max-width: 800px) {
+  .dossier header h1 {
+    font-size: 28px;
+  }
+}

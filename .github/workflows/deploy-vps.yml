@@ -1,0 +1,96 @@
+name: Deploy to Hostinger VPS
+
+on:
+  push:
+    branches:
+      - main
+
+concurrency:
+  group: deploy-vps-main
+  cancel-in-progress: true
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: API tests
+        run: npm test -w vistoria-api
+
+      - name: Build painel e aplicativo
+        env:
+          VITE_API_URL: ${{ secrets.VITE_API_URL }}
+          VITE_SUPABASE_URL: ${{ secrets.VITE_SUPABASE_URL }}
+          VITE_SUPABASE_ANON_KEY: ${{ secrets.VITE_SUPABASE_ANON_KEY }}
+        run: |
+          test -n "$VITE_API_URL" || (echo "Falta o secret VITE_API_URL" && exit 1)
+          test -n "$VITE_SUPABASE_URL" || (echo "Falta o secret VITE_SUPABASE_URL" && exit 1)
+          test -n "$VITE_SUPABASE_ANON_KEY" || (echo "Falta o secret VITE_SUPABASE_ANON_KEY" && exit 1)
+          npm run build -w web
+          npm run build -w pwa
+          mkdir -p release
+          cp -a web/dist release/web
+          cp -a pwa/dist release/pwa
+          tar -czf release.tgz release
+
+      - name: Upload sites
+        uses: actions/upload-artifact@v4
+        with:
+          name: release
+          path: release.tgz
+          retention-days: 1
+
+  deploy:
+    needs: test
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Download sites
+        uses: actions/download-artifact@v4
+        with:
+          name: release
+          path: .
+
+      - name: Copy sites to VPS
+        uses: appleboy/scp-action@v0.1.7
+        with:
+          host: ${{ secrets.VPS_HOST }}
+          username: ${{ secrets.VPS_USER }}
+          port: ${{ secrets.VPS_PORT }}
+          key: ${{ secrets.VPS_SSH_KEY }}
+          source: "release.tgz"
+          target: "/home/deployer/vistoria"
+          overwrite: true
+
+      - name: Deploy via SSH
+        uses: appleboy/ssh-action@v1.0.3
+        with:
+          host: ${{ secrets.VPS_HOST }}
+          username: ${{ secrets.VPS_USER }}
+          port: ${{ secrets.VPS_PORT }}
+          key: ${{ secrets.VPS_SSH_KEY }}
+          script_stop: true
+          command_timeout: 25m
+          script: |
+            export NVM_DIR="$HOME/.nvm"
+            # shellcheck disable=SC1091
+            . "$NVM_DIR/nvm.sh"
+            nvm use 22
+            cd /home/deployer/vistoria
+            git fetch origin main
+            git reset --hard FETCH_HEAD
+            chmod +x scripts/deploy-vps-remote.sh
+            bash scripts/deploy-vps-remote.sh
